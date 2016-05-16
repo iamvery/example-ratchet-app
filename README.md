@@ -1,5 +1,7 @@
 # RatchetApp
 
+Example usage of https://github.com/iamvery/ratchet
+
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
