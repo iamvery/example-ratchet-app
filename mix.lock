@@ -7,7 +7,8 @@
   "phoenix": {:hex, :phoenix, "1.1.4", "65809fba92eb94377372a5fb5a561197654bb8406e773cc47ca1a031bbe58019", [:mix], [{:poison, "~> 1.5 or ~> 2.0", [hex: :poison, optional: false]}, {:plug, "~> 1.0", [hex: :plug, optional: false]}, {:cowboy, "~> 1.0", [hex: :cowboy, optional: true]}]},
   "phoenix_html": {:hex, :phoenix_html, "2.5.1", "631053f9e345fecb5c87d9e0ccd807f7266d27e2ee4269817067af425fd81ba8", [:mix], [{:plug, "~> 0.13 or ~> 1.0", [hex: :plug, optional: false]}]},
   "phoenix_live_reload": {:hex, :phoenix_live_reload, "1.0.5", "829218c4152ba1e9848e2bf8e161fcde6b4ec679a516259442561d21fde68d0b", [:mix], [{:phoenix, "~> 1.0 or ~> 1.2-rc", [hex: :phoenix, optional: false]}, {:fs, "~> 0.9.1", [hex: :fs, optional: false]}]},
+  "phoenix_ratchet": {:hex, :phoenix_ratchet, "0.0.1", "6f0915c400ebcb356a7f5c2cc114cdcd5d1ba539c243cc1448c232b199965d1a", [:mix], [{:ratchet, "~> 0.0.4", [hex: :ratchet, optional: false]}, {:phoenix_html, "~> 2.5", [hex: :phoenix_html, optional: false]}, {:phoenix, "~> 1.1", [hex: :phoenix, optional: false]}]},
   "plug": {:hex, :plug, "1.1.4", "2eee0e85ad420db96e075b3191d3764d6fff61422b101dc5b02e9cce99cacfc7", [:mix], [{:cowboy, "~> 1.0", [hex: :cowboy, optional: true]}]},
   "poison": {:hex, :poison, "2.1.0", "f583218ced822675e484648fa26c933d621373f01c6c76bd00005d7bd4b82e27", [:mix], []},
   "ranch": {:hex, :ranch, "1.2.1", "a6fb992c10f2187b46ffd17ce398ddf8a54f691b81768f9ef5f461ea7e28c762", [:make], []},
-  "ratchet": {:hex, :ratchet, "0.0.3", "c923c5786e65fba220feb1a2269cddaa03732a755a32cd061cf64f3f1740aeda", [:mix], [{:floki, "~> 0.8", [hex: :floki, optional: false]}]}}
+  "ratchet": {:hex, :ratchet, "0.0.4", "08e7b059719e3bc5890f9cd3f2c2efcd17c493d4ddac65797c33e8e537c531ed", [:mix], [{:floki, "~> 0.8", [hex: :floki, optional: false]}]}}

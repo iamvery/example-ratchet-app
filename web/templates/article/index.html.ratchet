@@ -2,7 +2,7 @@
 <body>
   <h2>Articles</h2>
 
-  <div data-scope="article">
+  <div data-scope="articles">
     <p data-prop="body">Content</p>
     <ul>
       <li data-prop="comments">Comment</li>
