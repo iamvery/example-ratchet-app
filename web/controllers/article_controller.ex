@@ -5,6 +5,7 @@ defmodule RatchetApp.ArticleController do
     data = [
       %{
         body: "Thoughts and opinions!",
+        permalink: {"Iamvery", href: "https://iamvery.com"},
         comments: [
           "I also have thoughts.",
           "How do you even?",
@@ -12,6 +13,7 @@ defmodule RatchetApp.ArticleController do
       },
       %{
         body: "Words",
+        permalink: {"Google", href: "https://google.com"},
         comments: [
           "Capybara",
           "Wallaby",
