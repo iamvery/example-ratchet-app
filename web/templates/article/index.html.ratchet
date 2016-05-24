@@ -1,18 +1,14 @@
-<html>
-<body>
-  <h2>Articles</h2>
+<h2>Articles</h2>
 
-  <div data-scope="articles">
-    <p data-prop="body">Content</p>
-    <a data-prop="permalink"></a>
-    <ul>
-      <li data-prop="comments">Comment</li>
-    </ul>
-  </div>
+<div data-scope="articles">
+  <p data-prop="body">Content</p>
+  <a data-prop="permalink"></a>
+  <ul>
+    <li data-prop="comments">Comment</li>
+  </ul>
+</div>
 
-  <hr>
-  <p>This page is build from the following view and data</p>
-  <script src="https://gist.github.com/iamvery/7401af9a00b3690ea584f87b3eafec37.js"></script>
-  <script src="https://gist.github.com/iamvery/0b6314099539d91654da7576aee90475.js"></script>
-</body>
-</html>
+<hr>
+<p>This page is build from the following view and data</p>
+<script src="https://gist.github.com/iamvery/7401af9a00b3690ea584f87b3eafec37.js"></script>
+<script src="https://gist.github.com/iamvery/0b6314099539d91654da7576aee90475.js"></script>
