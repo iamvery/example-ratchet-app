@@ -1,6 +1,6 @@
 <h2>Articles</h2>
 
-<div data-scope="articles">
+<div data-prop="articles">
   <p data-prop="body">Content</p>
   <a data-prop="permalink"></a>
   <ul>
