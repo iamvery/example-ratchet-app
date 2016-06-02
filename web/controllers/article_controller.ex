@@ -9,15 +9,26 @@ defmodule RatchetApp.ArticleController do
         comments: [
           "I also have thoughts.",
           "How do you even?",
-        ]
+        ],
+        new_comment: {
+          %{body: [name: "comment[body]"]},
+          action: "#", method: "post",
+        },
       },
       %{
         body: "Words",
-        permalink: {"Google", href: "https://google.com"},
+        permalink: [href: "https://google.com"],
         comments: [
           "Capybara",
           "Wallaby",
-        ]
+        ],
+        new_comment: {
+          %{
+            body: [name: "comment[body]"],
+            submit: "Post it!",
+          },
+          action: "#", method: "post",
+        },
       },
     ]
 

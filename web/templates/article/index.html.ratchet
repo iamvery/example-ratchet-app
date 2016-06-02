@@ -2,10 +2,14 @@
 
 <div data-prop="articles">
   <p data-prop="body">Content</p>
-  <a data-prop="permalink"></a>
+  <a data-prop="permalink">Permalink</a>
   <ul>
     <li data-prop="comments">Comment</li>
   </ul>
+  <form data-prop="new_comment">
+    <input data-prop="body" type="text" placeholder="non-functional example">
+    <button data-prop="submit" type="submit">Add comment</button>
+  </form>
 </div>
 
 <hr>
